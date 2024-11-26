@@ -1,0 +1,48 @@
+name: usindh_news
+description: A University of Sindh Project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: 
+  carousel_slider: 
+  cached_network_image: 
+  http: 
+  sizer:
+  intl:
+  photo_view:
+  fluttertoast: 
+  youtube_player_flutter: 
+  flutter_local_notifications:
+  shared_preferences: 
+  workmanager: 
+  permission_handler:
+  sqflite: 
+  timezone:
+  html:
+  provider: 
+  flutter_automation: 
+  firebase_crashlytics:
+  firebase_analytics:
+  firebase_core:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # flutter_lints: ^4.0.0
+
+flutter:
+  fonts:
+    - family: TimesNewRoman
+      fonts:
+        - asset: assets/fonts/times new roman.ttf
+        - asset: assets/fonts/times new roman italic.ttf
+          style: italic
+  uses-material-design: true
+  assets:
+    - 'assets/images/'
